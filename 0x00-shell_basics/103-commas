@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1ap | tr '\n' ',' | sed 's/\(\/\)\([^\/]\)/\1\2 /g' | sed 's/,\(\S\)/, \1/g' | sed 's/,$//' | sed 's/,\s\+/, /g'
+ls -amvp
