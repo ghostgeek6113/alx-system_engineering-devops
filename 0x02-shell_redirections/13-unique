@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -oE '\w+' | sort | uniq -c | grep -oE '\s1\s+\w+' | awk '{ print $2 }'
+sort | uniq -u
